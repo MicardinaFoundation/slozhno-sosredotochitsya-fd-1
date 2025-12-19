@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сложно сосредоточиться</title>
     <meta name="color-scheme" content="dark light">
 
     <link rel="icon" href="./images/favicon.ico" sizes="any">
@@ -16,9 +16,8 @@
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
-    <link rel="stylesheet" href="./styles/light.css">
-
-    <title>Сложно сосредоточиться</title>
+    <link rel="stylesheet" href="./styles/light.css">    
+    <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
     <header class="header decorated-zone">
@@ -28,7 +27,7 @@
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
             >
-              день
+              День
             </button>
           </li>
           <li class="header__theme-menu-item">
@@ -36,29 +35,29 @@
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled
             >
-              авто
+              Авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
-              неон
+              Неон
             </button>
           </li>
         </ul>
       </nav>
-      <h1 class="header__title title">no focus</h1>
+       <h1 class="header__title title">no focus</h1>
       <p class="header__description">
         Что делать, когда не&nbsp;можешь делать ничего<br>
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо
       </p>
       <span class="header__rec" aria-hidden="true">rec</span>
     </header>
-  
+
     <main class="content">
-      <!-- Первая секция -->
-      <section class="section why">
+
+      <section class="section section-basic">
         <h2 class="section__header">Почему сосредоточиться так сложно</h2>
         <div class="section__article-list">
           <article class="article">
@@ -94,8 +93,7 @@
         </div>
       </section>
 
-      <!-- Вторая секция -->
-      <section class="section what">
+       <section class="section what">
         <h2 class="section__header">Что снижает концентрацию внимания?</h2>
         <div class="section__article-list">
           <article class="article">
@@ -132,7 +130,7 @@
       </section>
 
       <!-- Третья секция -->
-      <section class="section how">
+      <section class="section section-basic">
         <h2 class="section__header">Как концентрироваться лучше, чем золотая рыбка (то&nbsp;есть дольше трёх секунд)</h2>
         <div class="section__article-list">
           <h3 class="section__header">5&nbsp;простых (на&nbsp;самом деле не очень) советов</h3>
@@ -227,10 +225,10 @@
         </div>
         </article>
       </section>
+
     </main>
     <footer class="footer decorated-zone">
       <h2 class="footer__title title">focus</h2>
     </footer>
-    <script src="./scripts/script.js"></script>
   </body>
 </html>

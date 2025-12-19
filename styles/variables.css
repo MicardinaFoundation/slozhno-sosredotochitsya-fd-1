@@ -29,3 +29,11 @@
   --bg-image: url("../images/cover-image-dark.png");
   --visible: visible;
 }
+
+@media (width >= 768px) {
+  :root {
+    --main-padding: 20px;
+    --main-content-vertical-padding: 60px;
+    --sections-gap: 80px;
+  }
+}
